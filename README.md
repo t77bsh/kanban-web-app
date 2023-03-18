@@ -26,7 +26,7 @@ Implementing secure user authentication was essential to ensure the privacy and 
 Choosing the right database for storing boards data was crucial. MongoDB, with its flexible schema structure and high performance, turned out to be the perfect choice. By using Mongoose as an Object Data Modeling (ODM) library, I was able to create and manage board schemas easily and create intricate sub-schemas that allowed for storage of task details and subtasks, ensuring data consistency throughout the app. 
 
 
-### Takeaways and Learnings
+## Takeaways and Learnings
 
 This month-long journey of building a Kanban web app has been an incredible learning experience. Here are some key takeaways:
 
@@ -38,6 +38,6 @@ Be prepared for challenges: Encountering challenges is inevitable when building 
 
 Embrace collaboration: Engaging with the developer community, seeking advice, and sharing knowledge can lead to better solutions and a more enjoyable development experience.
 
-### Thoughts
+## Thoughts
 
 Building a Kanban web app from scratch has been an enriching and rewarding journey. Not only did I learn new skills and technologies, but I also gained a deeper understanding of the development process and the importance of overcoming challenges. I'm proud of the final product and look forward to applying these learnings to future projects.
