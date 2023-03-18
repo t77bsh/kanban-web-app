@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #828fa3;
+}
+
+/* Typography */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+h4 {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2.4px;
+}
+div {
+  font-size: 14px;
+  font-weight: medium;
+  line-height: 23px;
+}
+
+a {
+  color: #635fc7;
+}
+
+/* Center's any element to the middle of the page */
+.page-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Spinner styling */
+.loader {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 30px, 0 -30px;
+  border-radius: 4px;
+  background: currentColor;
+  display: block;
+  margin: -50px auto 0;
+  position: relative;
+  color: #fff;
+  transform: translateY(30px);
+  box-sizing: border-box;
+  animation: animloader 2s ease infinite;
+}
+.loader::after,
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 30px, 0 -30px;
+  border-radius: 4px;
+  background: currentColor;
+  color: #fff;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  animation: animloader 2s 0.2s ease infinite;
+}
+.loader::before {
+  animation-delay: 0.4s;
+  left: 60px;
+}
+
+@keyframes animloader {
+  0% {
+    top: 0;
+    color: #635fc7;
+  }
+  50% {
+    top: 30px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+  100% {
+    top: 0;
+    color: #635fc7;
+  }
+}
+
+.active {
+  color: white;
+}
+
+.active path {
+  fill: white;
+}
