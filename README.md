@@ -11,7 +11,7 @@ Backend: Node, Express, MongoDB, Firebase
 
 # The journey:
 
-Over the past month, I embarked on an exciting journey to create a Kanban web app as part of a portfolio project. Inspired by the simplicity and effectiveness of Kanban boards, I aimed to create a digital version that allows users to manage their tasks efficiently. The tech stack for this project was carefully chosen to provide a smooth and seamless user experience. I used React JS, TypeScript, Tailwind CSS, Redux, React-beautiful-DnD, Node, Express, MongoDB and Firebase.
+Over the past month, I embarked on an exciting journey to create a Kanban web app as part of a portfolio project. Inspired by the simplicity and effectiveness of Kanban boards, I aimed to create a digital version that allows users to manage their tasks efficiently. The tech stack for this project was carefully chosen to provide a smooth and seamless user experience. I used React JS, TypeScript, Tailwind CSS, Redux, React-beautiful-DnD, Node, Express, MongoDB and Firebase to create a complete full-stack application.
 
 ### Challenges:
 
