@@ -33,6 +33,6 @@ Choose the right tools: Picking the right tech stack and libraries significantly
 
 Plan and organize: A well-structured plan and organization is essential for managing complex projects. Breaking down the project by features and setting realistic deadlines helped me stay on track and build a full-stack application without being intimidated by its size.
 
-Be prepared for challenges: Encountering challenges is inevitable when building a web app. Being open to learning from them and finding solutions is crucial for growth as a developer. I learned to become a more patient and persistent developer and not give-up when encountering bugs and issues.
+Be prepared for challenges: Encountering challenges is inevitable when building a web app. Being open to learning from them and finding solutions is crucial for growth as a developer. I improved my patience and persistence as a developer and learned to not give-up when encountering bugs and issues.
 
 Embrace collaboration: Engaging with the developer community, seeking advice, and sharing knowledge can lead to better solutions and a more enjoyable development experience.
