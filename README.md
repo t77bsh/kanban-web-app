@@ -28,6 +28,7 @@ Choosing the right database for storing boards data was crucial. MongoDB, with i
 
 ## Takeaways and Learnings
 
+
 This month-long journey of building a Kanban web app has been an incredible learning experience. Here are some key takeaways:
 
 Choose the right tools: Picking the right tech stack and libraries can significantly impact the development process. By using tools that are well-suited for the task at hand, I was able to save time and effort.
