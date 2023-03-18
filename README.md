@@ -23,7 +23,7 @@ Handling errors effectively while making HTTP requests to the backend was crucia
 
 Implementing secure user authentication was essential to ensure the privacy and safety of user data. Firebase provided a reliable and straightforward solution for handling user authentication. With its built-in authentication features and third-party Single Sign-On (SSO) options, I was able to quickly set up a robust sign-up and sign-in process.
 
-Choosing the right database for storing boards data was crucial. MongoDB, with its flexible schema structure and high performance, turned out to be the perfect choice. By using Mongoose as an Object Data Modeling (ODM) library, I was able to create and manage board schemas easily and create intricate sub-schemas that allowed for storage of task details, status and subtasks.
+Choosing the right database for storing boards data was crucial. MongoDB, with its flexible schema structure and high performance, turned out to be the perfect choice. By using Mongoose as an Object Data Modeling (ODM) library, I was able to create and manage board schemas easily and create intricate sub-schemas that allowed for storage of additional details such as task descriptions and subtasks.
 
 One of the core features of the app is the ability to drag and drop tasks across columns. Implementing this was challenging, the native HTML5 Drag & Drop API lacked the behaviour I required, but react-beautiful-dnd provided an elegant solution. It allowed me to create a seamless and accessible drag-and-drop interface to provide an optimal user experience.
 
