@@ -25,7 +25,7 @@ Choosing the right database for storing boards data was crucial. MongoDB, with i
 
 One of the core features of the app is the ability to drag and drop tasks across columns. Implementing this was challenging, the native HTML5 Drag & Drop API lacked the behaviour I required, but react-beautiful-dnd provided an elegant solution. It allowed me to create a seamless and accessible drag-and-drop interface to provide an optimal user experience.
 
-### Takeaways and Learnings:
+### Takeways & Learnings:
 
 Choose the right tools: Picking the right tech stack and libraries can significantly impact the development process. By using tools that are well-suited for the task at hand, I was able to save time and effort.
 
