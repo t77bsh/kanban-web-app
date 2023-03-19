@@ -33,15 +33,3 @@ usersRouter.post("/users", async (req, res) => {
 );
 
 module.exports = usersRouter;
-
-// router.get('/users', (req, res) => {
-
-// });
-
-// router.patch("/users/:id", (req, res) => {
-
-// });
-
-// router.delete("/users/:id", (req, res) => {
-
-// });
