@@ -1,9 +1,12 @@
 # Kanban Web App
 
+ 
+### Demo:
+https://user-images.githubusercontent.com/100529283/226168859-cf2182b5-c2ae-49c6-9b72-e3d0cac4bd02.mp4
+
+
 ## Overview
  The Kanban web app is an intuitive and user-friendly task management tool designed to help users effortlessly organize and manage tasks for work or personal life. By creating customizable columns to represent various stages of progress, users can add tasks, subtasks, details and track their completion. The app's drag-and-drop interface makes it easy to move tasks between columns as they advance or change status. With the Kanban web app, users can streamline their workflow, stay organized, and effectively manage their projects and to-do lists.
- 
-### Brief demo:
 
 
 ### Built with:
