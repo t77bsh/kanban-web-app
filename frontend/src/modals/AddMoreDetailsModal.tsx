@@ -120,6 +120,7 @@ function AddMoreDetailsModal(props: Props) {
         </div>
 
         <form onSubmit={addTask} className="flex flex-col gap-y-3">
+          
           {/* Task Name*/}
           <div className="flex flex-col dark:text-white">
             <label className="text-grey dark:text-white" htmlFor="task">
@@ -137,6 +138,7 @@ function AddMoreDetailsModal(props: Props) {
               autoFocus
             />
           </div>
+
           {/* Description */}
           <div className="flex flex-col">
             <label className="text-grey dark:text-white" htmlFor="description">
@@ -151,6 +153,7 @@ function AddMoreDetailsModal(props: Props) {
               placeholder="e.g. This presentation is about the new features of our product."
             />
           </div>
+
           {/* Subtasks */}
           <div className="flex flex-col gap-y-1.5">
             <label className="text-grey dark:text-white" htmlFor="subtasks">
