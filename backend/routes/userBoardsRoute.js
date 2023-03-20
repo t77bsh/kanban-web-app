@@ -22,7 +22,6 @@ userBoardsRouter.get("/user_boards/:uid", async (req, res) => {
       fbaseUID: req.params.uid,
     });
     res.json(requestedUserDoc);
-    console.log(req.params.uid);
   } catch (err) {
     res.status(409).json({ error: err });
     console.log(err);
