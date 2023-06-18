@@ -1,4 +1,4 @@
-# Kanban Web App
+# Kanban Web App (Trello clone 🚀)
 
  
 ### Demo:
