@@ -1,21 +1,20 @@
 // SDKs
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-import { getFirestore, collection, addDoc } from 'firebase/firestore';
-
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDvnIFHI95qXxjC7x_Zj8XrdHcQ9RwOiDE",
-    authDomain: "kanban-d4d63.firebaseapp.com",
-    projectId: "kanban-d4d63",
-    storageBucket: "kanban-d4d63.appspot.com",
-    messagingSenderId: "783378269137",
-    appId: "1:783378269137:web:399cfbf2af8df8278a56f0",
-    measurementId: "G-3QXZJH7JDG"
+  apiKey: import.meta.env.VITE_APP_API_KEY,
+  authDomain: import.meta.env.VITE_APP_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_APP_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_APP_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_APP_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_APP_ID,
+  measurementId: import.meta.env.VITE_APP_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
